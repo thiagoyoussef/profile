@@ -1,0 +1,69 @@
+body {
+  background-color: #f7f9fc;
+  font-family: "Newsreader", serif;
+  text-align: center;
+}
+
+h1, h3, a {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: #C1261B;
+}
+
+p {
+  padding-bottom: 15px;
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 50px 0 25px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
+
+li i {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+li i:hover {
+  color: black;
+}
+
+a.btn {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+a.btn:hover {
+  background-color: black;
+}
