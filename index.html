@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Newsreader&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
@@ -16,26 +13,45 @@
   <body>
     <div class="container">
       <div class="card">
-        <img src="images/profile.jpg" width="100px" alt="Thiago Youssef">
+        <img src="images/profile.jpg" width="100px" alt="Thiago Youssef" id="avatar">
         <h1>Thiago Youssef</h1>
         <h3>Full Stack Developer</h3>
-        <p>
-          Discover Le Wagon, I did batch 616!
-        </p>
-        <a href="https://www.lewagon.com/" class="btn">Discover Le Wagon</a>
       </div>
       <div class="card">
-        <h3>About Me</h3>
-        <p>
-          Hello there! My name is Thiago and I have 19 years old.
-        </p>
+        <h2>My projects</h2>
+        <div style="margin-bottom: 24px;">
+          <p class="project-title"><strong>Techmatch - Freelancer marketplace</strong></p>
+          <a class="img-hover" href="https://techmatchapp.herokuapp.com/" target="_blank">
+            <img class="drop-shadow" src="images/techmatch.png">
+          </a>
+          <p class="project-title"><strong>Nomad Workers - Cities by cost of living estimator for Digital Nomads</strong></p>
+          <a class="img-hover" href="https://nomadworker.herokuapp.com/" target="_blank">
+            <img class="drop-shadow" src="images/nomadworkers.png">
+          </a>
+          <p class="project-title"><strong>Corona Run - Customized Google dinosaur game</strong></p>
+          <a class="img-hover" href="https://www.youtube.com/watch?v=DoQgfygAPvQ" target="_blank">
+            <img class="drop-shadow" src="images/coronarun.png">
+          </a>
+          <p class="project-title"><strong>Bungee jump Modeling (Minimum height x Jumper Mass) - For safety purposes </strong></p>
+          <a class="img-hover" href="https://github.com/thiagoyoussef/Bungee-Modeling" target="_blank">
+            <img class="drop-shadow" src="images/bungee.jpg">
+          </a>
+        </div>
       </div>
       <div class="card">
-        <h3>Skills</h3>
-        <p>
-          Ruby | Sqlite3 | HTML | CSS
-        </p>
+        <h2>My technical skills</h2>
+        <div style="display: flex; flex-wrap: wrap;">
+            <span>Ruby on Rails</span>
+            <span>Ruby</span>
+            <span>Javascript</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>GitHub</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
       </div>
+
       <div class="card">
         <h3>Follow me</h3>
         <ul class="list-inline">
