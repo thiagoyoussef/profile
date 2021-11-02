@@ -6,6 +6,7 @@
   --blue: #5a7de6;
   --purple: #6D83F2;
   --white: #f8f8f8;
+  --red: #fd1115;
 }
 
 [data-theme="light"] {
@@ -129,7 +130,7 @@ h2 {
   margin: 20px;
   border-width: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 600px;
   /* background-color: red; */
@@ -154,21 +155,29 @@ h2 {
   color: var(--white);
 }
 
-.snake-game {
-  /* width: 350px;
-  height: 350px;
-  border-radius: 20px;
-  box-shadow: rgb(0 0 0 / 8%) 0px 5px 10px;
-  background-color: var(--light-grey); */
+#snake-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#play-again {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  background: var(--blue);
+  color: var(--white);
+  padding: 10px;
+  text-decoration: none;
+  box-shadow: rgb(0 0 0 / 15%) 0px 5px 10px;
+}
+
+#play-again:hover {
+  padding: 12px;
 }
 
 #snakeboard {
   border-radius: 15px;
   box-shadow: rgb(0 0 0 / 30%) 0px 5px 10px;
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 #score {
@@ -257,7 +266,6 @@ h2 {
   border: solid var(--white);
   border-width: 3px 4px 3px 5px;
   border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
-  /* transform: rotate(2deg); */
 }
 
 #projects .cards {
